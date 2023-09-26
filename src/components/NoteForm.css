@@ -1,0 +1,9 @@
+/* NoteForm.css */
+.note-form {
+  margin-bottom: 20px;
+  width: 100%; /* Adjust width */
+}
+
+.input-group-append {
+  padding-left: 10px; /* Add padding */
+}

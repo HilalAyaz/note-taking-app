@@ -1,0 +1,41 @@
+.app-container {
+  border: 1px solid #ced4da;
+  width: 700px;
+  margin-bottom: 400px;
+}
+
+.note-form {
+  margin-bottom: 20px;
+}
+
+.note-list {
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+
+    &:hover {
+      background-color: #e2e6ea;
+    }
+
+    input.form-control {
+      width: 70%;
+    }
+
+    .btn {
+      margin: 0 2px;
+    }
+  }
+}
+
+
